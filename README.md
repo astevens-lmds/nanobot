@@ -16,6 +16,21 @@
 
 ⚡️ Delivers core agent functionality in just **~4,000** lines of code — **99% smaller** than Clawdbot's 430k+ lines.
 
+## 🔀 Fork Information
+
+This is a fork of [HKUDS/nanobot](https://github.com/HKUDS/nanobot). Key differences from upstream:
+
+- **Custom deployment target** — configured for personal assistant use cases
+- **Pinned at v0.1.3.post4** — upstream has continued to v0.1.4+ with features like streaming intermediate progress, SiliconFlow provider, GitHub Copilot OAuth, scoped sessions, and Slack thread configuration
+- **Environment configuration** — added `.env.example` for quick setup
+
+To sync with upstream:
+```bash
+git remote add upstream https://github.com/HKUDS/nanobot.git
+git fetch upstream
+git merge upstream/main
+```
+
 ## 📢 News
 
 - **2026-02-04** 🚀 v0.1.3.post4 released with multi-provider & Docker support! Check [release notes](https://github.com/HKUDS/nanobot/releases/tag/v0.1.3.post4) for details.
